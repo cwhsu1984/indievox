@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">indievox</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- button -->
+    <string name="home">首頁</string>
+    <string name="playing">正在播放</string>
+    <string name="ticket">新票劵</string>
+    <string name="topseller">排行榜</string>
+    <string name="recent_event">近期活動</string>
+    <string name="preorder">預訂門票</string>
+    <string name="new_record">新發行</string>
+    
+    <!-- action item list -->
+    <string name="action_item_event">活動/票劵</string>
+    <string name="action_item_album">專輯</string>
+    <string name="action_item_song">歌曲</string>
+    <string name="action_item_singer">藝人</string>
+	<string name="action_item_radio">電台</string>
+	<string name="action_item_collection">收藏</string>
+	<string name="action_item_wishlist">願望清單</string>
+	<string name="action_item_order">預訂記錄</string>
+	
+	<!-- event item -->
+	<string name="band">演出者:</string>
+	<string name="place">地點:</string>
+	<string name="at_the_gate">請至現場購票，售完為止。</string>
+	<string name="sold_out">售完</string>
+	
+	<!-- album item -->
+	<string name="album_type">形式:</string>
+	<string name="publish_date">發行日期:</string>
+	
+	<!-- exception -->
+	<string name="timeout_exception">資料讀取失敗，網路連線時間過長</string>
+</resources>
+

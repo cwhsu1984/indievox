@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="main_background">#FFBEBEBE</color>
+<color name="action_item_background">#FFF7F7F7</color>
+<color name="action_item_text">#FF4A4A4A</color>
+</resources>

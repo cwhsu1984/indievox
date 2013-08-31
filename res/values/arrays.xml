@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array of main activity listview -->
+    <string-array name="action_item_name">
+        <item>活動/票劵</item> 
+        <item>專輯</item> 
+        <item>歌曲</item> 
+        <item>藝人</item> 
+        <item>電台</item> 
+        <item>收藏</item>
+        <item>願望清單</item>
+        <item>預訂記錄</item>
+    </string-array>
+    <string-array name="action_item_icon">
+        <item>event</item>
+        <item>album</item>
+        <item>song</item>
+        <item>singer</item>
+        <item>radio</item>
+        <item>collection</item>
+        <item>wishlist</item>
+        <item>order</item>
+    </string-array>
+</resources>
