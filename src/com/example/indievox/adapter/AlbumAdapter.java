@@ -23,13 +23,13 @@ public class AlbumAdapter extends BaseAdapter {
 	private final ArrayList<Album> mAlbums;
 
 	public static class ViewHolder {
-		public ImageView cover;
-		public TextView band;
-		public TextView record;
-		public TextView album;
-		public TextView type;
-		public TextView date;
-		public ImageView arrow;
+		public ImageView cover;  // Cover image
+		public TextView band;  // Band plays the album
+		public TextView record; // Name
+		public TextView album; // Album type such as ±M·¥
+		public TextView type; // Type such as RocknRoll, Hip-Hop
+		public TextView date; // Publish date
+		public ImageView arrow; // Arrow image
 	}
 
 	public AlbumAdapter(Context context, ArrayList<Album> albums) {

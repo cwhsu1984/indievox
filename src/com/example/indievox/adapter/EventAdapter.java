@@ -24,13 +24,13 @@ public class EventAdapter extends BaseAdapter {
 	private final ArrayList<Event> mEvents;
 
 	public static class ViewHolder {
-		public ImageView poster;
-		public TextView date;
-		public TextView event;
-		public TextView band;
-		public TextView place;
-		public Button preoder;
-		public ImageView arrow;
+		public ImageView poster; // Poster image
+		public TextView date; // Date of the event
+		public TextView event; // Name of the event
+		public TextView band; // Bands play in the event
+		public TextView place; // Place of the event
+		public Button preoder; // Button to order ticket
+		public ImageView arrow; // Arrow Image
 	}
 
 	public EventAdapter(Context context, ArrayList<Event> events) {

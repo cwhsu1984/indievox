@@ -8,7 +8,7 @@ import com.example.indievox.parser.Album;
 
 
 /*
- * Task to load the album image.
+ * Task to load the album cover image.
  */
 public class AlbumCoverTask extends CommonImageTask {
 	private final ViewHolder holder;

@@ -7,7 +7,7 @@ import com.example.indievox.adapter.EventAdapter.ViewHolder;
 import com.example.indievox.parser.Event;
 
 /*
- * Task to load poster image.
+ * Task to load event poster image.
  */
 public class EventPosterTask extends CommonImageTask {
 	private final ViewHolder holder;

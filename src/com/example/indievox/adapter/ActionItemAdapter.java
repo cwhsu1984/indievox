@@ -1,6 +1,5 @@
 package com.example.indievox.adapter;
 
-import com.example.indievox.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,17 +8,19 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.indievox.R;
+
 public class ActionItemAdapter extends BaseAdapter {
 
-	private Context mContext;
-	private LayoutInflater mInflater;
-	private String[] action_icon;
-	private String[] action_name;
+	private final Context mContext;
+	private final LayoutInflater mInflater;
+	private final String[] action_icon; // String Array of action icon
+	private final String[] action_name; // String Array action name
 
 	static class ViewHolder {
-		ImageView icon;
-		TextView name;
-		ImageView arrow;
+		ImageView icon; // Image of action
+		TextView name; // Name of action
+		ImageView arrow; // Arrow image
 	}
 
 	public ActionItemAdapter(Context context, String[] icon, String[] name) {
@@ -75,16 +76,15 @@ public class ActionItemAdapter extends BaseAdapter {
 	 * Setup item round corner according to its position.
 	 */
 	private void setRoundedCorner(int position, View convertView) {
-		if (position == 0 && action_name.length == 1) {
+		if (position == 0 && action_name.length == 1) { // One item in the ListView only
+			convertView.setBackgroundResource(R.drawable.action_item_rounded_corner);
+		} else if (position == 0) { // The top item
 			convertView
-					.setBackgroundResource(R.drawable.action_item_rounded_corner);
-		} else if (position == 0) {
+			.setBackgroundResource(R.drawable.action_item_rounded_corner_top);
+		} else if (position == action_name.length - 1) { // The bottom item
 			convertView
-					.setBackgroundResource(R.drawable.action_item_rounded_corner_top);
-		} else if (position == action_name.length - 1) {
-			convertView
-					.setBackgroundResource(R.drawable.action_item_rounded_corner_bottom);
-		} else {
+			.setBackgroundResource(R.drawable.action_item_rounded_corner_bottom);
+		} else { // The middile items
 			convertView.setBackgroundResource(R.drawable.action_item_middle);
 		}
 	}

@@ -10,6 +10,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 
+/*
+ * The CommonImageTask is the share part of the subclass.
+ */
 public abstract class CommonImageTask extends AsyncTask<Void, Void, Bitmap> {
 
 	abstract String getImageURL(); // Get URL of the image.
